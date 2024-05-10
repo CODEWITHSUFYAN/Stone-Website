@@ -1,0 +1,289 @@
+body{
+    background-image: url(img/bg1.jpg);
+    background-position: center;
+}
+
+i, p{
+    color: #ffffff;
+}
+p{
+    
+}
+i{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+    flex-direction: row;
+    padding: 35px;
+}
+marquee{
+    margin-left: 30px;
+    font-weight: 600;
+    
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    
+}
+
+
+.text{
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 0px;
+
+    margin-left: 300px;
+    
+    
+}
+.logo>#image{
+    margin-left: 500px;
+    float: right;
+    margin-top: 20px;
+}
+#whatsapp{
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+}
+
+
+#content{
+
+    font-size: 13px;
+    font-weight: 600;
+    width: 500px;
+    height: 50px;
+
+}
+button{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(64, 53, 109);
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+}
+button:hover{
+    transition: 1s ease;
+    background-color: black;
+}
+
+
+
+i:hover{
+    color: rgb(64, 53, 109);
+}
+.about{
+  height: 670px;
+  width: 100%;
+  background-color: #fff; 
+}
+#about-img{
+    margin-left: 850px;
+    margin-bottom: 0px;
+    
+}
+#about-head{
+    font-weight: bolder ;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+#slider{
+    background-color: #fff; 
+}
+#active{
+    
+    margin-left: 0px
+}
+#call:hover{
+       color: rgb(64, 53, 109);;
+}
+#email:hover{
+    color: rgb(64, 53, 109);
+}
+#about-p{
+    color: rgb(64, 53, 109);
+    width: 30%;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+#about-btn{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(64, 53, 109);
+    color: white;
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+#about-btn:hover{
+    transition: 1s ease;
+    background-color: black;
+}
+#product-head{
+    align-items: center;
+    color: #fff;
+     text-align: center; 
+     font-weight: bolder;
+}
+
+#img1{
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 60px;
+}
+#img2{
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 70px;
+    background-position: center;
+}
+#img3{
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 40px;
+   
+}
+#img4{
+    border-radius: 50%;
+    background-color: #fff;
+
+    margin-left: 70px;
+}
+#img5{
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+#img6{
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+#img7{
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+#img8{
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+#product-btn{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(64, 53, 109);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    margin-left: 550px;
+}
+#product-btn:hover{
+    transition: 1s ease;
+    background-color: black;
+}
+.contact-us>h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+input{
+    width: 450px;
+    height: 30px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    margin-left: 150px;
+    cursor: text;
+   padding: 12px;
+   font-size: 18px;
+   font-weight: bolder;
+   
+}
+input[type=email]{
+    margin-left: 20px;
+}
+#message{
+    margin-left: 20px;
+}
+#sumbit{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(64, 53, 109);
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    margin-left: 550px;
+}
+#sumbit:hover{
+    transition: 1s ease;
+    background-color: black;
+}
+#thanks-img{
+    margin-left: 200px;
+}
+.footer{
+    
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
+#News-form{
+    background-color: white;
+    width: 230px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+#Subscribe{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(64, 53, 109);
+    color: white;
+    font-size: 18px;
+}
+#Subscribe:hover{
+    transition: 1s ease;
+    background-color: black;
+}
+hr{
+    width: 80%;
+    color: #fff;
+}
+#last-footer{
+    color: #fff;
+    text-align: center;
+}
+
+
